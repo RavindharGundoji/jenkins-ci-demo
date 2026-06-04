@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+            label 'linux'
+          }
 
     stages {
 
@@ -16,6 +18,25 @@ pipeline {
                 '''
             }
         }
+        
+        stage('Agent Verification'){
+              steps{
+                   echo 'Running on jenkins Agent'
+ 
+                sh '''
+                   echo "current User:"
+                   whoami
+
+                    echo "Hostname:"
+                    hostname
+
+                    ehco "Workspace:"
+                    pwd
+
+                  ''' 
+
+                   }
+         }
 
         stage('Build') {
             steps {
