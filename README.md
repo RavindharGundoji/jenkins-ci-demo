@@ -10,3 +10,4 @@ final gerrit test
 pipeline fixed
 pipeline final fix
 patchset build test
+verified vote test
