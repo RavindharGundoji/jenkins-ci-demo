@@ -7,3 +7,4 @@ jenkins auto build test
 fix gerrit refspec
 fix gerrit refspec
 final gerrit test
+pipeline fixed
