@@ -30,7 +30,7 @@ pipeline {
                     echo "Hostname:"
                     hostname
 
-                    ehco "Workspace:"
+                    echo "Workspace:"
                     pwd
 
                   ''' 
