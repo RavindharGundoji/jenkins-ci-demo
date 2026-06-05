@@ -12,3 +12,4 @@ pipeline final fix
 patchset build test
 verified vote test
 verified automation final
+GitHub replication integration
